@@ -1,0 +1,56 @@
+:root {
+  --background: #444;
+  --nav-background: #111010;
+  --text: #e2e6cd;
+}
+
+section {
+  display: flex;
+  text-align: center;
+  align-items: center;
+  justify-content: space-around;
+  border-radius: 0.5em;
+  background: #455c80;
+  box-shadow: 8px 8px 12px #3a3a3a, -8px -8px 12px #4e4e4e;
+}
+
+body {
+  text-align: center;
+  background-color: var(--background);
+  color: var(--text);
+  margin: 4em 10em 4em 10em;
+}
+
+ul {
+  display: inline;
+  text-align: center;
+  align-items: center;
+  margin-right: 30px;
+}
+
+li {
+  text-align: left;
+  padding-left: 0.25em;
+}
+
+.facts {
+  display: flex;
+  margin-bottom: 20px;
+}
+
+img {
+  height: 50%;
+  width: 250px;
+  margin: 2em;
+  border-radius: 0.5em;
+  background: #455c80;
+  box-shadow: 8px 8px 12px #3a3a3a, -8px -8px 12px #4e4e4e;
+  padding:1em;
+}
+
+.img-section {
+  margin-top: 2em;
+}
+.questions > div {
+  margin: 0.5em;
+}
